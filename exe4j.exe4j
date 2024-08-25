@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="8.0.1" transformSequenceNumber="3">
+  <directoryPresets config="D:/opt" />
+  <application name="demo" distributionSourceDir="D:/opt" />
+  <executable name="demo" wrapperType="embed" executableMode="gui" />
+  <java mainClass="fun.qianrui.ShowBoot" minVersion="16" maxVersion="16" allowBetaVM="true">
+    <searchSequence>
+      <directory location="./jre11" />
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <classPath>
+      <archive location="C:/work/close-time/target/close-time-1.0-SNAPSHOT.jar" failOnError="false" />
+      <archive location="C:/work/close-time/lib/asm-3.3.1.jar" failOnError="false" />
+      <archive location="C:/work/close-time/lib/base16-1.0-SNAPSHOT.jar" failOnError="false" />
+      <archive location="C:/work/close-time/lib/cglib-2.2.2.jar" failOnError="false" />
+      <archive location="C:/work/close-time/lib/kryo-5.2.0.jar" failOnError="false" />
+      <archive location="C:/work/close-time/lib/minlog-1.3.1.jar" failOnError="false" />
+      <archive location="C:/work/close-time/lib/objenesis-3.2.jar" failOnError="false" />
+      <archive location="C:/work/close-time/lib/reflectasm-1.11.9.jar" failOnError="false" />
+    </classPath>
+  </java>
+</exe4j>
